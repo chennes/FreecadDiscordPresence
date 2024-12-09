@@ -93,5 +93,4 @@ def stopExtension():
     if discord_presence:
         discord_presence.stopPresence()
 
-autoStart()
 runExtension()
