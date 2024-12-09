@@ -2,7 +2,6 @@ import FreeCADGui
 import FreeCAD
 from PySide2 import QtCore
 from pypresence import Presence
-import threading
 import time
 import re
 
@@ -93,3 +92,6 @@ def stopExtension():
     global discord_presence
     if discord_presence:
         discord_presence.stopPresence()
+
+autoStart()
+runExtension()

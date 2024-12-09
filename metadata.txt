@@ -2,6 +2,6 @@ name = Discord Presence
 description = A FreeCAD addon for Discord Presence
 version = 1.0.0
 FreeCADVersion = 1.0
-authors = Your Name
+authors = Tzur Soffer
 repository = https://github.com/TzurSoffer/FreecadDiscordPresence
 pylibs = pypresence
