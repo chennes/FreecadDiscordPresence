@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>DiscordPresence</name>
+  <description>Shows FreeCad Status on discord.</description>
+  <version>1.0.0</version>
+  <maintainer email="tzur.soffer@gmail">Tzur Soffer</maintainer>
+  <license file="LICENSE">GNU</license>
+  <url type="repository" branch="main">https://github.com/TzurSoffer/FreecadDiscordPresence</url>
+  <url type="readme">https://github.com/TzurSoffer/FreecadDiscordPresence/blob/main/README.md</url>
+</package>
