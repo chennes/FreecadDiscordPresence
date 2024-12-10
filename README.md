@@ -8,10 +8,8 @@ This extension integrates Discord Rich Presence with FreeCAD, allowing users to 
 - Updates every 5 seconds to reflect real-time changes in FreeCAD.
 - Automatically starts and stops when FreeCAD is running.
 
-## Requirements
-- **FreeCAD**: Version 0.19 or higher.
-- **PySide2**: Qt bindings for Python used by FreeCAD for GUI.
-- **pypresence**: Python library to manage Discord Rich Presence.
+## Dependencies
+- ```pypresence```: Python library to manage Discord Rich Presence.
 
 You can install the required library with the following:
 
@@ -26,3 +24,6 @@ pip install pypresence
     - On Linux it is usually /usr/share/freecad/Mod/
     - On Windows it is usually C:\Program Files\FreeCAD\Mod\
     - On macOS it is usually /Applications/FreeCAD/Mod/
+
+# LICENSE
+This app uses LGPL2.1, the full license file can be found in the License File

@@ -70,6 +70,15 @@ class DiscordRichPresence(QtCore.QObject):
             )
         except Exception as e:
             print(f"Failed to update presence: {e}")
+            self.reconnect()
+
+    def reconnect(self):
+        """Reconnect to Discord."""
+        try:
+            self.rpc.close()
+        except Exception:
+            pass  # Ignore errors when closing
+        self.startPresence()
 
     def stopPresence(self):
         """Stop the timer and disconnect from Discord."""
@@ -79,13 +88,11 @@ class DiscordRichPresence(QtCore.QObject):
             self.rpc.close()
             print("Disconnected from Discord.")
 
-
 def runExtension():
     """Run the Discord Presence extension."""
     global discord_presence
     discord_presence = DiscordRichPresence(CLIENT_ID)
     discord_presence.startPresence()
-
 
 def stopExtension():
     """Stop the Discord Presence extension."""
