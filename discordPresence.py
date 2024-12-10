@@ -44,7 +44,7 @@ class DiscordRichPresence(QtCore.QObject):
         """Start a timer to periodically update the Discord status."""
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.updatePresence)
-        self.timer.start(5000)  #< Update every 5 seconds
+        self.timer.start(1000)  #< Update every second
 
     def updatePresence(self):
         """Update the Discord Rich Presence based on the current FreeCAD context."""

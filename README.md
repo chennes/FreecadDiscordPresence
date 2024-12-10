@@ -2,10 +2,13 @@
 
 This extension integrates Discord Rich Presence with FreeCAD, allowing users to display their current FreeCAD activity (such as the active workbench and file being edited) directly in Discord.
 
+## Showcase
+[Showcase Video Failed to load](https://github.com/TzurSoffer/FreecadDiscordPresence/blob/main/showcase/showcase.mp4)
+
 ## Features
 - Displays the current workbench in use within FreeCAD.
 - Shows the name of the file currently being edited.
-- Updates every 5 seconds to reflect real-time changes in FreeCAD.
+- Updates every second to reflect real-time changes in FreeCAD.
 - Automatically starts and stops when FreeCAD is running.
 
 ## Dependencies
